@@ -30,16 +30,16 @@ if (isset($_POST["send"])){
         $error_subject = "Введите тему сообщения ";
         $error = true;
     }
-//    if($error_message == 0){
-//        $error_message = "Введите сообщение ";
-//        $error = true;
-//    }
-//}
+    if($error_message == 0){
+        $error_message = "Введите сообщение ";
+        $error = true;
+    }
+}
 ?>
 <DOCTYPE! HTML>                                                 
 <html>
     <head>
-        <title> ОБРАТНАЯ ФОРМА СВЯЗИ</title>
+        <title> ОБРАТНАЯ ФОРМА СВЯЗИ version 2.0.100500</title>
     </head>
     <body>
         <h2>ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
