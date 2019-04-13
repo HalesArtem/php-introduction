@@ -30,11 +30,11 @@ if (isset($_POST["send"])){
         $error_subject = "Введите тему сообщения ";
         $error = true;
     }
-    if($error_message == 0){
-        $error_message = "Введите сообщение ";
-        $error = true;
-    }
-}
+//    if($error_message == 0){
+//        $error_message = "Введите сообщение ";
+//        $error = true;
+//    }
+//}
 ?>
 <DOCTYPE! HTML>                                                 
 <html>
@@ -68,50 +68,3 @@ if (isset($_POST["send"])){
 </form>                            
     </body>
     </html>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
